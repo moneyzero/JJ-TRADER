@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JJ TRADR</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      color: #ffffff;
+      background: url('https://media.istockphoto.com/id/1407828820/vector/chart-of-investment-financial-data-with-glowing-globe-modern-technology-background-world.jpg?s=612x612&w=0&k=20&c=ITLHHhBjWw6ryC7CCo_DDMekOtlC1LrVB7dEETzO8HY=') no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    header {
+      background-color: rgba(13, 17, 23, 0.9);
+      padding: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo img {
+      height: 50px;
+      border-radius: 8px;
+      margin-right: 10px;
+    }
+
+    .logo span {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #58a6ff;
+    }
+
+    nav a {
+      color: #c9d1d9;
+      margin-left: 1rem;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: #58a6ff;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 3rem 1rem;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .hero h2 {
+      font-size: 2.2rem;
+      margin-bottom: 1rem;
+      color: #58a6ff;
+    }
+
+    .hero p {
+      font-size: 1rem;
+      color: #c9d1d9;
+    }
+
+    section {
+      padding: 2rem 1rem;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .section-title {
+      font-size: 1.8rem;
+      text-align: center;
+      margin-bottom: 1.5rem;
+      color: #58a6ff;
+    }
+
+    .reel-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .reel-row iframe {
+      width: 100%;
+      max-width: 320px;
+      height: 500px;
+      border: none;
+      border-radius: 10px;
+    }
+
+    .coming-soon {
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #ffa500;
+      margin-top: 2rem;
+    }
+
+    .social-buttons {
+      text-align: center;
+      margin-top: 1.5rem;
+    }
+
+    .social-buttons a {
+      display: inline-block;
+      margin: 0.5rem;
+      padding: 0.7rem 1.2rem;
+      border-radius: 5px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    .social-buttons .instagram {
+      background-color: #e1306c;
+    }
+
+    .social-buttons .telegram {
+      background-color: #0088cc;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background-color: rgba(0, 0, 0, 0.7);
+      font-size: 0.85rem;
+      color: #8b949e;
+    }
+
+    @media (max-width: 600px) {
+      .hero h2 {
+        font-size: 1.5rem;
+      }
+
+      .section-title {
+        font-size: 1.4rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="" alt="Logo" />
+      <span>JJ TRADR</span>
+    </div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#reels">Reels</a>
+      <a href="#links">Links</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>JJ TRADR</h2>
+    <p>Explore our trading journey and insights – Reels, Learnings, and More!</p>
+  </section>
+
+  <section id="about">
+    <h2 class="section-title">About</h2>
+    <p style="text-align:center; max-width:700px; margin:auto;">
+      JJ TRADR is all about smart trading mindset and guidance. Follow us on Instagram and Telegram for tips, signals, and updates.
+    </p>
+  </section>
+
+  <section id="reels">
+    <h2 class="section-title">Latest Reels</h2>
+    <div class="reel-row">
+      <!-- Replace these links with actual Instagram Reel embeds -->
+      <iframe src="https://www.instagram.com/reel/DLkEawbMWt_/embed" allowfullscreen></iframe>
+      <iframe src="https://www.instagram.com/reel/DMP7F1as9i5/embed" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Premium Course</h2>
+    <div class="coming-soon">COMING SOON...</div>
+  </section>
+
+  <section id="links">
+    <h2 class="section-title">Connect with Us</h2>
+    <div class="social-buttons">
+      <a href="https://www.instagram.com/jj_.trader?utm_source=ig_web_button_share_sheet&igsh=aDRxcmpnMWR1eWNq" class="instagram" target="_blank">Instagram</a>
+      <a href="tg://join?invite=siUYAjrkWoc1YjE1" class="telegram" target="_blank">Telegram</a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 JJ TRADR. All rights reserved.
+  </footer>
+
+</body>
+</html>
